@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Você me ama?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Corações flutuando ao fundo (gerados pelo script.js) -->
+  <div class="bg-hearts" id="bg-hearts" aria-hidden="true"></div>
+
+  <main class="stage">
+    <!-- TELA 1: a pergunta -->
+    <section class="card" id="main-card">
+      <img src="https://i.supaimg.com/001f5659-bb07-44c4-a79d-4338b59c3c1a/dfefa27a-ec53-44b5-a813-08078f2c25bf.png" alt="Ursinho fofo com coração" class="gif">
+
+      <h1>Você me ama?</h1>
+      <p class="hint" id="hint">&nbsp;</p>
+
+      <div class="btn-group" id="btn-group">
+        <button id="yes-btn">Sim</button>
+        <button id="no-btn">Não</button>
+      </div>
+    </section>
+
+    <!-- TELA 2: resultado -->
+    <section class="card hidden" id="result-card">
+      <img src="https://i.supaimg.com/001f5659-bb07-44c4-a79d-4338b59c3c1a/a15e3ac8-1fa9-4d80-a726-86c2b5fa60a7.gif" alt="Ursinhos se abraçando" class="gif">
+
+      <h1>Eu sabia! ❤️</h1>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
